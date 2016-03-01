@@ -1,4 +1,4 @@
-# Practices JS
+# Javascript Practices
 
 ## Installation MOCHA
 
