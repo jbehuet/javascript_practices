@@ -1,13 +1,15 @@
+'use strict';
+
 var Caesar = function(){
 }
 
 Caesar.prototype.encrypt = function(word){
-    var hash = '';
+    let hash = '';
     return hash;
 }
 
 Caesar.prototype.decrypt = function(hash){
-    var word = '';
+    let word = '';
     return word;
 }
 

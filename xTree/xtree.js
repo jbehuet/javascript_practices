@@ -1,9 +1,10 @@
-var XTree = function(height){
+'use strict';
+let XTree = function(height){
     this.height = height;
 }
 
 XTree.prototype.draw = function(){
-    
+  
 }
 
 
