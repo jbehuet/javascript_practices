@@ -30,7 +30,7 @@ describe('BlackJack', () =>{
     });
 
     it('loaded', () =>{
-        assert.equal(casino([['2','A','3','A'],['D','8']]), 'C');
+        assert.equal(casino([['2','A','3','A'],['D','6']]), 'J');
     });
 
 
