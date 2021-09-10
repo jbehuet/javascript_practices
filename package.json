@@ -1,0 +1,22 @@
+{
+  "name": "javascript_practices",
+  "version": "1.0.0",
+  "description": "[![Licence](https://img.shields.io/badge/licence-MIT-blue.svg?maxAge=2592000)](https://github.com/jbehuet/javascript_practices/blob/master/LICENCE) [![GitHub stars](https://img.shields.io/github/stars/jbehuet/javascript_practices.svg)](https://github.com/jbehuet/javascript_practices/stargazers) [![GitHub forks](https://img.shields.io/github/forks/jbehuet/javascript_practices.svg)](https://github.com/jbehuet/javascript_practices/network) [![GitHub issues](https://img.shields.io/github/issues/jbehuet/javascript_practices.svg)](https://github.com/jbehuet/javascript_practices/issues)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbehuet/javascript_practices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbehuet/javascript_practices/issues"
+  },
+  "homepage": "https://github.com/jbehuet/javascript_practices#readme",
+  "dependencies": {
+    "mocha": "^9.1.1"
+  }
+}

@@ -2,18 +2,16 @@
 
 [![Licence](https://img.shields.io/badge/licence-MIT-blue.svg?maxAge=2592000)](https://github.com/jbehuet/javascript_practices/blob/master/LICENCE)
 [![GitHub stars](https://img.shields.io/github/stars/jbehuet/javascript_practices.svg)](https://github.com/jbehuet/javascript_practices/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/jbehuet/javascript_practices.svg)](https://github.com/jbehuet/javascript_practices/network) [![GitHub issues](https://img.shields.io/github/issues/jbehuet/javascript_practices.svg)](https://github.com/jbehuet/javascript_practices/issues)
-
+[![GitHub forks](https://img.shields.io/github/forks/jbehuet/javascript_practices.svg)](https://github.com/jbehuet/javascript_practices/network)
 TDD JavaScript exercices. Each directories are an exercices.
 
 ### Prerequisites
 * [NodeJS](https://nodejs.org/en/)
-* [Mocha](https://mochajs.org/)
 
 ### Installation
 
 ```bash
-sudo npm i -g mocha
+npm i
 ```
 
 ### Execution
@@ -23,8 +21,8 @@ cd javascript_practices
 ```
 __Example to use an exercice :__
 ```bash
-cd tennis
-mocha
+cd katas/tennis
+npx mocha
 ```
 
 ### Contributing
