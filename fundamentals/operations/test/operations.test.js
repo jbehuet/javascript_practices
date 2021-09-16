@@ -1,6 +1,6 @@
 'use strict';
 let assert = require('assert'),
-    operations = require('./operations');
+    operations = require('../operations');
 
 
 describe('Operations', () => {

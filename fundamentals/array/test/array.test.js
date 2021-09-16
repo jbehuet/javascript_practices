@@ -1,6 +1,6 @@
 'use strict';
 let assert = require('assert'),
-    array = require('./array');
+    array = require('../array');
 
 
 describe('Array', () => {

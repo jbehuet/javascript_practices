@@ -1,6 +1,6 @@
 'use strict';
 let assert = require('assert'),
-    loops = require('./loops');
+    loops = require('../loops');
 
 
 describe('Loops', () => {

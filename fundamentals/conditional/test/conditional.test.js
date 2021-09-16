@@ -1,6 +1,6 @@
 'use strict';
 let assert = require('assert'),
-    conditional = require('./conditional');
+    conditional = require('../conditional');
 
 
 describe('Conditional', () => {
