@@ -9,7 +9,7 @@ describe('Conditional', () => {
 
         it('should return true', () => {
             const result = conditional.isEven(2);
-            assert.equal(result, false);
+            assert.equal(result, true);
         });
 
         it('should return false', () => {

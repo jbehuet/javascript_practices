@@ -27,7 +27,7 @@ describe('Loops', () => {
                 ["orange", "orange", "kiwi", "kiwi"],
                 ["prune", "banane", "pamplemousse", "ananas"]
             ]);
-            assert.equal(result, {
+            assert.deepEqual(result, {
                 "orange": 8,
                 "kiwi": 4,
                 "ananas": 3,
@@ -40,7 +40,11 @@ describe('Loops', () => {
 
     describe('Total from object', () => {
         it('should return 10', () => {
-            const result = loops.totalFromObject([{ name: "Louis", total: 2 }, { name: "Elodie", total: 5 }, { name: "Dominique", total: 3 }]);
+            const result = loops.totalFromObject([
+                { name: "Louis", total: 2 },
+                { name: "Elodie", total: 5 },
+                { name: "Dominique", total: 3 }
+            ]);
             assert.equal(result, 10);
         });
     });

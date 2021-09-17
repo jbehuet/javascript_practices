@@ -23,17 +23,22 @@ describe('Array', () => {
 
         it('should return [3, 4]', () => {
             const result = array.editAt([4, 4], 0, 3);
-            assert.equal(result, [3, 4]);
+            assert.deepEqual(result, [3, 4]);
         });
 
         it('should return ["hello", "world"]', () => {
             const result = array.editAt(["hello", ""], 1, "world");
-            assert.equal(result, ["hello", "world"]);
+            assert.deepEqual(result, ["hello", "world"]);
         });
 
         it('should return ["hello", "world"]', () => {
             const result = array.editAt(["hello", "world"], 4, "people");
-            assert.equal(result, ["hello", "world"]);
+            assert.deepEqual(result, ["hello", "world"]);
+        });
+
+        it('should return ["hello", "world"]', () => {
+            const result = array.editAt(["hello", "world"], 2, "people");
+            assert.deepEqual(result, ["hello", "world"]);
         });
 
     })
@@ -42,12 +47,12 @@ describe('Array', () => {
 
         it('should return [1]', () => {
             const result = array.findPosition([0, 1, 2], 1);
-            assert.equal(result, [1]);
+            assert.deepEqual(result, [1]);
         });
 
         it('should return [5, 5]', () => {
             const result = array.findPosition([0, 5, 8, 2, 5], 5);
-            assert.equal(result, [5, 5]);
+            assert.deepEqual(result, [5, 5]);
         });
     });
 
@@ -88,12 +93,12 @@ describe('Array', () => {
 
         it('should return [1, 2]', () => {
             const result = array.findPosition([1], [2]);
-            assert.equal(result, [1, 2]);
+            assert.deepEqual(result, [1, 2]);
         });
 
         it('should return ["he", "ll", "o"]', () => {
             const result = array.findPosition(["he", "ll"], ["o"]);
-            assert.equal(result, ["he", "ll", "o"]);
+            assert.deepEqual(result, ["he", "ll", "o"]);
         });
 
     });
